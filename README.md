@@ -58,22 +58,22 @@ NOTE: Bearer tokens (Access/Refresh) are passed in all API except Register and L
 ## APIs implemented
 | Status | Method | Endpoint                                             | Type             | Description                                                       |
 |----|--------|------------------------------------------------------|------------------|-------------------------------------------------------------------|
-| [x] | POST   | /api/auth/register                                   | Authentication   | Register a new user                                               |
-| [x] | POST   | /api/auth/login                                      | Authentication   | Login and receive an authentication token                         |
-| [x] | POST   | /api/auth/refresh                                    | Authentication   | Refresh an authentication token                                   |
-| [x] | POST   | /api/auth/logout                                     | Authentication   | Invalidate the current token                                      |
-| [x] | POST   | /api/events                                          | Event            | Create a new event                                                |
-| [x] | GET    | /api/events                                          | Event            | List all events the user has access to (with pagination/filtering)|
-| [x] | GET    | /api/events/{id}                                     | Event            | Get a specific event by ID                                        |
-| [x] | PUT    | /api/events/{id}                                     | Event            | Update an event by ID                                             |
-| [x] | DELETE | /api/events/{id}                                     | Event            | Delete an event by ID                                             |
-| [x] | POST   | /api/events/batch                                    | Event            | Create multiple events in a single request                        |
-| [x] | POST   | /api/events/{id}/share                               | Collaboration    | Share an event with other users                                   |
-| [x] | GET    | /api/events/{id}/permissions                         | Collaboration    | List all permissions for an event                                 |
-| [x] | PUT    | /api/events/{id}/permissions/{userId}               | Collaboration    | Update permissions for a user                                     |
-| [x] | DELETE | /api/events/{id}/permissions/{userId}               | Collaboration    | Remove access for a user                                          |
-| [x] | GET    | /api/events/{id}/history/{versionId}                | Version History  | Get a specific version of an event                                |
-| [x] | POST   | /api/events/{id}/rollback/{versionId}               | Version History  | Rollback to a previous version                                    |
-| [x] | GET    | /api/events/{id}/changelog                           | Changelog        | Get a chronological log of all changes to an event                |
-| [x] | GET    | /api/events/{id}/diff/{versionId1}/{versionId2}     | Changelog        | Get a diff between two versions                                   |
+| ✅ | POST   | /api/auth/register                                   | Authentication   | Register a new user                                               |
+| ✅ | POST   | /api/auth/login                                      | Authentication   | Login and receive an authentication token                         |
+| ✅ | POST   | /api/auth/refresh                                    | Authentication   | Refresh an authentication token                                   |
+| ✅ | POST   | /api/auth/logout                                     | Authentication   | Invalidate the current token                                      |
+| ✅ | POST   | /api/events                                          | Event            | Create a new event                                                |
+| ✅ | GET    | /api/events                                          | Event            | List all events the user has access to (with pagination/filtering)|
+| ✅ | GET    | /api/events/{id}                                     | Event            | Get a specific event by ID                                        |
+| ✅ | PUT    | /api/events/{id}                                     | Event            | Update an event by ID                                             |
+| ✅ | DELETE | /api/events/{id}                                     | Event            | Delete an event by ID                                             |
+| ✅ | POST   | /api/events/batch                                    | Event            | Create multiple events in a single request                        |
+| ✅ | POST   | /api/events/{id}/share                               | Collaboration    | Share an event with other users                                   |
+| ✅ | GET    | /api/events/{id}/permissions                         | Collaboration    | List all permissions for an event                                 |
+| ✅ | PUT    | /api/events/{id}/permissions/{userId}               | Collaboration    | Update permissions for a user                                     |
+| ✅ | DELETE | /api/events/{id}/permissions/{userId}               | Collaboration    | Remove access for a user                                          |
+| ✅ | GET    | /api/events/{id}/history/{versionId}                | Version History  | Get a specific version of an event                                |
+| ✅ | POST   | /api/events/{id}/rollback/{versionId}               | Version History  | Rollback to a previous version                                    |
+| ✅ | GET    | /api/events/{id}/changelog                           | Changelog        | Get a chronological log of all changes to an event                |
+| ✅ | GET    | /api/events/{id}/diff/{versionId1}/{versionId2}     | Changelog        | Get a diff between two versions                                   |
 
