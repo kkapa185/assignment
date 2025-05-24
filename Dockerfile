@@ -7,7 +7,6 @@ COPY requirements.txt .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 COPY ./app /app/app
-COPY ./test /app/test
 
 EXPOSE 8000
 
