@@ -1,0 +1,6 @@
+DATABASE_URL="postgresql://postgres:123456@localhost:5432/rbac_assignment"
+SECRET_KEY="supersecret"
+REFRESH_SECRET_KEY="supersecret_refresh"
+ALGORITHM="HS256"
+ACCESS_EXPIRE_MIN=15
+REFRESH_EXPIRE_MIN=1440
