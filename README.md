@@ -17,6 +17,7 @@ docker compose up --build -d
 
 ## Running Without Docker
 **Requirements:** Python 3.11+ [Download Python](https://www.python.org/downloads/)
+**Requirements:** PostgreSQL [Download PostgreSQL](https://www.postgresql.org/download/)
 
 **Step 1:** Navigate to the main project directory  
 **Step 2:** Create a virtual environment  
